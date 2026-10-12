@@ -1,0 +1,17 @@
+﻿tb_cpu_load_use
+  cycles=28  instrs=20  CPI=1.40  stalls=4  flushes=0
+  [ OK ] mem[0x40] = 11
+  [ OK ] mem[0x44] = 22
+  [ OK ] x3 = 11
+  [ OK ] x4 = 22
+  [ OK ] x6 = 23
+  [ OK ] x8 = 11
+  [ OK ] x10 = 44
+  [ OK ] mem[0x48] = 11
+  [ OK ] x13 = 12
+  [ OK ] x14 = 0
+  [ OK ] x0 = 0
+  [ OK ] stalls = 4
+  [ OK ] flushes = 0
+TEST PASSED: cpu_load_use (13 checks)
+tb/cpu_tb_common.vh:130: $finish called at 310000 (1ps)

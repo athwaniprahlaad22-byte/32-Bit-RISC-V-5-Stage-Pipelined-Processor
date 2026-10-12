@@ -1,0 +1,3 @@
+﻿tb_forwarding_unit
+TEST PASSED: forwarding_unit (9 checks)
+tb\tb_forwarding_unit.v:51: $finish called at 9000 (1ps)

@@ -1,0 +1,3 @@
+﻿tb_alu
+TEST PASSED: alu (21 checks)
+tb\tb_alu.v:62: $finish called at 21000 (1ps)

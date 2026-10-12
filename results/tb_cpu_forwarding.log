@@ -1,0 +1,21 @@
+﻿tb_cpu_forwarding
+  cycles=28  instrs=24  CPI=1.17  stalls=0  flushes=0
+  [ OK ] x3 = 15
+  [ OK ] x4 = 10
+  [ OK ] x5 = 25
+  [ OK ] x7 = 4
+  [ OK ] x9 = 14
+  [ OK ] x12 = 99
+  [ OK ] mem[0x40] = 99
+  [ OK ] x0 = 0
+  [ OK ] x13 = 0
+  [ OK ] x14 = 100
+  [ OK ] x15 = 96
+  [ OK ] x16 = -15
+  [ OK ] x17 = -8
+  [ OK ] x18 = 0
+  [ OK ] x19 = 1
+  [ OK ] stalls = 0
+  [ OK ] flushes = 0
+TEST PASSED: cpu_forwarding (17 checks)
+tb/cpu_tb_common.vh:130: $finish called at 310000 (1ps)

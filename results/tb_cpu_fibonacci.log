@@ -1,0 +1,20 @@
+﻿tb_cpu_fibonacci
+  cycles=205  instrs=139  CPI=1.47  stalls=22  flushes=20
+  [ OK ] mem[0x0] = 0
+  [ OK ] mem[0x4] = 1
+  [ OK ] mem[0x8] = 1
+  [ OK ] mem[0xc] = 2
+  [ OK ] mem[0x10] = 3
+  [ OK ] mem[0x14] = 5
+  [ OK ] mem[0x18] = 8
+  [ OK ] mem[0x1c] = 13
+  [ OK ] mem[0x20] = 21
+  [ OK ] mem[0x24] = 34
+  [ OK ] mem[0x28] = 55
+  [ OK ] mem[0x2c] = 89
+  [ OK ] mem[0x40] = 232
+  [ OK ] x7 = 232
+  [ OK ] stalls = 22
+  [ OK ] flushes = 20
+TEST PASSED: cpu_fibonacci (16 checks)
+tb/cpu_tb_common.vh:130: $finish called at 2080000 (1ps)
